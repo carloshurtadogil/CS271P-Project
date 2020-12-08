@@ -162,7 +162,7 @@ int main(int argc, char **argv) {
             e[i][j] = x;
         }
     }
-    VEC ans = SA(e, 0.9);
+    VEC ans = SA(e, 0.9995);
     cout << evaluation(ans) << endl;
     return 0;
 }
